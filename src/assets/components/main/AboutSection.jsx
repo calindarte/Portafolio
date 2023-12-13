@@ -11,7 +11,7 @@ import Skill from "../about/Skill";
 
 const AboutSection = () => {
   return (
-    <section className=" bg-gradient-to-r from-gray-100 to-gray-200 border-[2px] border-y-gray-300/40">
+    <section id='about' className=" bg-gradient-to-r from-gray-100 to-gray-200 border-[2px] border-y-gray-300/40">
           <div className="flex flex-col gap-y-8 text-center p-40">
             <h2 className="font-bold text-4xl">SOBRE MI</h2>
             <p className=" text-xl  text-gray-600 px-10">
@@ -48,9 +48,11 @@ const AboutSection = () => {
                   ¡Acompáñame en este viaje de transformación digital!
                 </p>
                 <div>
+                  <a href="#contact">
                   <button className="py-4 px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold text-lg rounded-xl hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300">
                     CONTACT
                   </button>
+                  </a>
                 </div>
               </div>
               <div className="text-left">

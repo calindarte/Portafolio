@@ -2,7 +2,7 @@ import ContactForm from "../contact/ContactForm";
 
 const ContactSection = () => {
   return (
-    <section className="p-36 bg-hero-pattern ">
+    <section id="contact" className="p-36 bg-hero-pattern ">
       <div className="text-center flex flex-col gap-y-8">
         <h1 className=" font-bold text-4xl"> CONTACTO</h1>
         <p className=" text-xl text-gray-600">

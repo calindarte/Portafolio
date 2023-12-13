@@ -17,7 +17,7 @@ import Projects from "../projects/Projects";
 
 const ProjectSection = () => {
   return (
-    <section className=" bg-gradient-to-r from-gray-200 to-gray-100 border-[2px] border-y-gray-300/40 px-20 pb-20">
+    <section id="projects" className=" bg-gradient-to-r from-gray-200 to-gray-100 border-[2px] border-y-gray-300/40 px-20 pb-20">
           <div className="flex flex-col gap-y-8 text-center p-36">
             <h2 className="font-bold text-4xl">PROYECTOS</h2>
             <p className=" text-xl  text-gray-600 px-10">

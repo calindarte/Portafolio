@@ -8,7 +8,7 @@ const Header = () => {
             <span className="material-symbols-outlined text-4xl animate-spin-slow">
               deployed_code
             </span>
-            <h3 className="font-bold tracking-tight">PORTAFOLIO</h3>
+            <h3 className="font-bold tracking-tight"><a href="#home">PORTAFOLIO</a></h3>
           </div>
           <NavBar />
         </div>
