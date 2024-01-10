@@ -1,17 +1,25 @@
-import NavLink from "./NavLink"
+import ButtonDarkMode from "../darkMode/ButtonDarkMode";
+import NavLink from "./NavLink";
+
+
 
 const NavBar = () => {
+
+
+
   return (
     <div className="flex items-center justify-center">
-            <nav className=" flex  gap-x-8 font-semibold text-sm tracking-tight ">
-              <NavLink text='HOME' id='#home'/>
-              <NavLink text='ABOUT' id='#about'/>
-              <NavLink text='PROJECTS' id='#projects'/>
-              <NavLink text='CONTACT' id='#contact'/>
+      <nav className=" flex  gap-x-8 font-semibold text-sm tracking-tight ">
+        <NavLink text="INICIO" id="#home" />
+        <NavLink text="SOBRE MI" id="#about" />
+        <NavLink text="PROYECTOS" id="#projects" />
+        <NavLink text="CONTACTO" id="#contact" />
+        <ButtonDarkMode />
+      </nav>
+      
+        
+    </div>
+  );
+};
 
-            </nav>
-          </div>
-  )
-}
-
-export default NavBar
+export default NavBar;

@@ -12,7 +12,7 @@ const ContactForm = () => {
     <div className="px-24 pt-24">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white p-10 flex flex-col gap-4 shadow-2xl text-sm font-medium"
+        className="bg-white p-10 flex flex-col gap-4 shadow-2xl text-sm font-medium dark:bg-zinc-900 dark:text-zinc-300"
       >
         <div className="flex flex-col gap-3 ">
           <label htmlFor="nombre">Nombre:</label>
@@ -31,8 +31,10 @@ const ContactForm = () => {
             type="email"
             id="email"
             placeholder="Ingrese Su Correo electrónico"
+            
             {...register("email", { required: true })}
             className="bg-[#f0f0f0] p-2 rounded-lg"
+            autoComplete="off"
           />
         </div>
 

@@ -2,7 +2,7 @@ import logo from "../../images/Image_Perfil.jpg";
 
 const HomeSection = () => {
   return (
-    <section id="home" className="p-36 bg-hero-pattern ">
+    <section id="home" className="p-36 bg-hero-pattern dark:bg-dark-hero-pattern dark:text-gray-300 ">
       <div className="flex flex-col gap-y-12 text-center">
         <div className="flex gap-4 items-center justify-center ">
           <img
@@ -12,7 +12,7 @@ const HomeSection = () => {
           />
         </div>
         <h1 className=" font-bold text-6xl">¡Hola! Soy Carlos Santos</h1>
-        <p className=" text-xl text-gray-600">
+        <p className=" text-xl text-gray-600 dark:text-gray-300">
           Un apasionado desarrollador web en la recta final de culminar la
           carrera de ingeniería de sistemas. Especializado en tecnologías como
           React, JavaScript, Node.js y MySQL, mi enfoque es crear experiencias

@@ -16,7 +16,7 @@ const Projects = ({ image, title, description, url }) => {
       </div>
       <div className="text-left">
         <span className="text-2xl font-bold">{title}</span>
-        <p className="py-4 tracking-wider text-lg  text-gray-800">
+        <p className="py-4 tracking-wider text-lg  text-gray-800 dark:text-gray-300">
           {description}
         </p>
         <div className="py-6 ">

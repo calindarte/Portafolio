@@ -11,10 +11,10 @@ import Skill from "../about/Skill";
 
 const AboutSection = () => {
   return (
-    <section id='about' className=" bg-gradient-to-r from-gray-100 to-gray-200 border-[2px] border-y-gray-300/40">
+    <section id='about' className=" bg-gradient-to-r from-gray-100 to-gray-200 border-[2px] border-y-gray-300/40 dark:bg-gradient-to-r dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0">
           <div className="flex flex-col gap-y-8 text-center p-40">
             <h2 className="font-bold text-4xl">SOBRE MI</h2>
-            <p className=" text-xl  text-gray-600 px-10">
+            <p className=" text-xl  text-gray-600 px-10 dark:text-gray-300">
               Aquí encontrarás más información sobre mí, lo que hago y mis
               habilidades actuales principalmente en términos de programación y
               tecnología.
@@ -23,7 +23,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-x-20 py-8">
               <div className="text-left">
                 <h4 className="text-2xl font-bold">¡Llegar a conocerme!</h4>
-                <p className="py-6 tracking-tighter  text-lg text-justify text-gray-800">
+                <p className="py-6 tracking-tighter  text-lg text-justify text-gray-800 dark:text-gray-300">
                   <p>
                     Desde el inicio de mi viaje en el <b>desarrollo web</b>, he
                     encontrado en la creación digital mi verdadera pasión. Mi

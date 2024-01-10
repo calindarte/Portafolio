@@ -2,10 +2,10 @@ import imgUdemy from "../../images/imgUdemy.png";
 
 const CourseSection = () => {
   return (
-    <section className="p-36 bg-gradient-to-r from-gray-200 to-gray-200 border-[2px] border-y-gray-300/40">
+    <section className="p-36 bg-gradient-to-r from-gray-200 to-gray-200 border-[2px] border-y-gray-300/40 dark:bg-gradient-to-l dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0">
       <div className="flex flex-col gap-y-8 text-center ">
         <h1 className=" font-bold text-4xl">CERTIFICACIONES Y CURSOS</h1>
-        <p className=" text-xl text-gray-600">
+        <p className=" text-xl text-gray-600 dark:text-gray-300">
           Durante mi viaje profesional y académico, he buscado constantemente
           oportunidades para ampliar mis conocimientos y habilidades. Algunas de
           las certificaciones y cursos relevantes que he completado incluyen:
