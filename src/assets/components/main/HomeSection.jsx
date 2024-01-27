@@ -1,4 +1,5 @@
 import logo from "../../images/Image_Perfil.jpg";
+import IconArrowDown from "./IconArrowDown";
 
 const HomeSection = () => {
   return (
@@ -7,15 +8,15 @@ const HomeSection = () => {
         <div className="flex gap-4 items-center justify-center ">
           <img
             src={logo}
-            alt=""
+            alt="logo-perfil"
             className="h-80 w-80 object-cover rounded-full hover:-translate-x-1 hover:scale-110 duration-300 cursor-pointer"
           />
         </div>
-        <h1 className=" font-bold text-6xl">¡Hola! Soy Carlos Santos</h1>
+        <h1 className=" font-bold text-6xl">¡Hola! Soy Carlos Dev</h1>
         <p className=" text-xl text-gray-600 dark:text-gray-300">
           Un apasionado desarrollador web en la recta final de culminar la
           carrera de ingeniería de sistemas. Especializado en tecnologías como
-          React, JavaScript, Node.js y MySQL, mi enfoque es crear experiencias
+          Html, Css, JavaScript, React, Next, mi enfoque es crear experiencias
           de usuario intuitivas y atractivas. Con habilidades sólidas en Git,
           GitHub y Tailwind CSS, me encanta enfrentar desafíos para ofrecer
           soluciones creativas e innovadoras. ¡Bienvenido a mi mundo de
@@ -29,10 +30,12 @@ const HomeSection = () => {
           </a>
         </div>
       </div>
-      <div className="text-center pt-20">
-        <span className="material-symbols-outlined text-5xl cursor-pointer animate-bounce w-6 h-6">
-          keyboard_double_arrow_down
-        </span>
+      <div className="flex justify-center pt-20">
+        
+        
+
+        <IconArrowDown className="animate-bounce fill-gray-800 dark:fill-gray-300" />
+       
       </div>
     </section>
   );

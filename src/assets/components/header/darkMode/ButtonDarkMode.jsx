@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import IconLight from "./IconLight";
+import IconDark from "./IconDark";
 
 const inicialDarkMode= localStorage.getItem('theme') === 'dark';
 const ButtonDarkMode = () => {
@@ -21,9 +23,7 @@ const ButtonDarkMode = () => {
     <div>
     <button onClick={() => setDarkMode(!darkMode)}  className="flex items-center">
         {
-            darkMode? <span className="material-symbols-outlined">
-            light_mode
-            </span> : <span className="material-symbols-outlined">dark_mode</span>
+            darkMode? <IconLight className="fill-gray-300"/> : <IconDark/>
         }
         
     </button>

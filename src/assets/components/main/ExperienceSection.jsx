@@ -1,3 +1,5 @@
+import IconArrowDown from "./IconArrowDown";
+
 const ExperienceSection = () => {
   return (
     <section className="p-36 bg-gradient-to-r from-gray-300 to-gray-200 border-[2px] border-y-gray-300/40 dark:bg-gradient-to-r dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0">
@@ -21,10 +23,11 @@ const ExperienceSection = () => {
           conocimientos adquiridos.
         </p>
       </div>
-      <div className="text-center pt-20">
-        <span className="material-symbols-outlined text-5xl cursor-pointer animate-bounce w-6 h-6">
-          keyboard_double_arrow_down
-        </span>
+      <div className="flex justify-center pt-20">
+  
+
+        <IconArrowDown className="animate-bounce fill-gray-800 dark:fill-gray-300" />
+       
       </div>
     </section>
   );

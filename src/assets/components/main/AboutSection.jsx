@@ -3,7 +3,7 @@ import imgCSS from "../../images/CSS3_logo.svg.png";
 import imgJS from "../../images/JavaScript-logo.png/";
 import imgReact from "../../images/React-icon.svg.png";
 import imgTailwind from "../../images/Tailwind_CSS_Logo.svg.png";
-import imgMySQL from "../../images/mysql-5-logo.png";
+import imgFirebase from "../../images/firebase.png";
 import imgGit from "../../images/Git-Icon-1788C.png";
 import imgGitHub from "../../images/25231.png";
 
@@ -65,7 +65,7 @@ const AboutSection = () => {
                   <Skill logo={imgJS} text="JavaScrip" />
                   <Skill logo={imgReact} text="React" />
                   <Skill logo={imgTailwind} text="Tailwind" />
-                  <Skill logo={imgMySQL} text="MySQL" />
+                  <Skill logo={imgFirebase} text="Firebase" />
                   <Skill logo={imgGit} text="Git" />
                   <Skill logo={imgGitHub} text="GitHub" />
                 </div>

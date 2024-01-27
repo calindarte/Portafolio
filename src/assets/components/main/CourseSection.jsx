@@ -20,7 +20,7 @@ const CourseSection = () => {
           >
             <img
               src={imgUdemy}
-              alt=""
+              alt="imgUdemy"
               className=" hover:-translate-x-1 hover:scale-90 duration-300 border-2 border-gray-700/75"
             />
           </a>
@@ -33,7 +33,7 @@ const CourseSection = () => {
           >
             <img
               src={imgUdemy}
-              alt=""
+              alt="imgUdemy"
               className="hover:-translate-x-1 hover:scale-90 duration-300 border-2 border-purple-600/75"
             />
           </a>
