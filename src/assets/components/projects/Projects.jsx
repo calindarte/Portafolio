@@ -1,6 +1,6 @@
 const Projects = ({ image, title, description, url }) => {
   return (
-    <div className="grid grid-cols-2 gap-x-20">
+    <div className="grid md:grid-cols-2 md:gap-x-20 gap-y-8">
       <div className="text-center">
         <a
           href={url}
@@ -15,13 +15,13 @@ const Projects = ({ image, title, description, url }) => {
         </a>
       </div>
       <div className="text-left">
-        <span className="text-2xl font-bold">{title}</span>
-        <p className="py-4 tracking-wider text-lg  text-gray-800 dark:text-gray-300">
+        <span className="md:text-2xl text-xl font-bold">{title}</span>
+        <p className="py-4 tracking-wider md:text-lg  text-gray-800 dark:text-gray-300">
           {description}
         </p>
-        <div className="py-6 ">
+        <div className="py-6 text-center md:text-left ">
         <a href={url} target="_blank" rel="noreferrer">
-          <span className="py-4 px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold text-lg rounded-xl  hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300">
+          <span className="text-sm px-6 py-3 md:py-4 md:px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold md:text-lg rounded-xl  hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300">
             VISITAR
           </span>
         </a>

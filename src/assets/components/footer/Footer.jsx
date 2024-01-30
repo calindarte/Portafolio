@@ -12,8 +12,8 @@ import RedesSociales from "./RedesSociales";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#000] text-white px-10 dark:bg-zinc-950 ">
-      <div className="grid grid-cols-2 p-10 gap-40">
+    <footer className="bg-[#000] text-white md:px-10 dark:bg-zinc-950 ">
+      <div className="grid md:grid-cols-2 p-10 md:gap-40 gap-y-8">
         <div className="flex flex-col gap-8 ">
           <h4 className="font-semibold tracking-tight text-xl">
             Carlos Santos

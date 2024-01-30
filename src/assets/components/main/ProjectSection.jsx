@@ -20,16 +20,16 @@ const ProjectSection = () => {
   return (
     <section
       id="projects"
-      className=" bg-gradient-to-r from-gray-200 to-gray-100 border-[2px] border-y-gray-300/40 px-20 pb-20 dark:bg-gradient-to-l dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0"
+      className=" bg-gradient-to-r from-gray-200 to-gray-100 border-[2px] border-y-gray-300/40 md:px-20 pb-20 dark:bg-gradient-to-l dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0"
     >
-      <div className="flex flex-col gap-y-8 text-center p-36">
-        <h2 className="font-bold text-4xl">PROYECTOS</h2>
-        <p className=" text-xl  text-gray-600 px-10 dark:text-gray-300">
+      <div className="flex flex-col gap-y-8 text-center md:p-36 p-6">
+        <h2 className="font-bold md:text-4xl">PROYECTOS</h2>
+        <p className=" md:text-xl  text-gray-600 md:px-10 dark:text-gray-300">
           Explora mi trabajo en algunos proyectos destacados que reflejan mi
           habilidad y creatividad en el desarrollo web
         </p>
       </div>
-      <div className="flex flex-col gap-y-20">
+      <div className="flex flex-col md:gap-y-20 gap-y-8 p-4">
         <Projects
           image={imgTODO}
           title="TODO APP"

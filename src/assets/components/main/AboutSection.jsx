@@ -12,18 +12,18 @@ import Skill from "../about/Skill";
 const AboutSection = () => {
   return (
     <section id='about' className=" bg-gradient-to-r from-gray-100 to-gray-200 border-[2px] border-y-gray-300/40 dark:bg-gradient-to-r dark:from-zinc-800 dark:to-zinc-900 dark:text-gray-300 dark:border-0">
-          <div className="flex flex-col gap-y-8 text-center p-40">
-            <h2 className="font-bold text-4xl">SOBRE MI</h2>
-            <p className=" text-xl  text-gray-600 px-10 dark:text-gray-300">
+          <div className="flex flex-col gap-y-8 text-center md:p-40 p-6">
+            <h2 className="font-bold md:text-4xl">SOBRE MI</h2>
+            <p className=" md:text-xl  text-gray-600 md:px-10 dark:text-gray-300">
               Aquí encontrarás más información sobre mí, lo que hago y mis
               habilidades actuales principalmente en términos de programación y
               tecnología.
             </p>
 
-            <div className="grid grid-cols-2 gap-x-20 py-8">
+            <div className="grid md:grid-cols-2 md:gap-x-20 gap-y-10 md:py-8">
               <div className="text-left">
-                <h4 className="text-2xl font-bold">¡Llegar a conocerme!</h4>
-                <p className="py-6 tracking-tighter  text-lg text-justify text-gray-800 dark:text-gray-300">
+                <h4 className="md:text-2xl font-bold">¡Llegar a conocerme!</h4>
+                <p className="py-6 tracking-tighter  md:text-lg text-justify text-gray-800 dark:text-gray-300">
                   <p>
                     Desde el inicio de mi viaje en el <b>desarrollo web</b>, he
                     encontrado en la creación digital mi verdadera pasión. Mi
@@ -49,17 +49,17 @@ const AboutSection = () => {
                 </p>
                 <div>
                   <a href="#contact">
-                  <button className="py-4 px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold text-lg rounded-xl hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300">
+                  <button className="text-sm px-6 py-3 md:py-4 md:px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold md:text-lg rounded-xl hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300">
                     CONTACT
                   </button>
                   </a>
                 </div>
               </div>
               <div className="text-left">
-                <h4 className="text-2xl font-bold text-center">
+                <h4 className="md:text-2xl font-bold text-center">
                   Mis Habilidades
                 </h4>
-                <div className="grid grid-cols-3 gap-y-8 gap-x-4 pt-8">
+                <div className="grid md:grid-cols-3 grid-cols-2 gap-10 md:gap-y-8 md:gap-x-4 pt-8">
                   <Skill logo={imgHTML} text="HTML" />
                   <Skill logo={imgCSS} text="CSS" />
                   <Skill logo={imgJS} text="JavaScrip" />

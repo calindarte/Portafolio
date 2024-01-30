@@ -9,7 +9,7 @@ const ContactForm = () => {
     
   };
   return (
-    <div className="px-24 pt-24">
+    <div className="md:px-24 md:pt-24 pt-10">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="bg-white p-10 flex flex-col gap-4 shadow-2xl text-sm font-medium dark:bg-zinc-900 dark:text-zinc-300"
@@ -52,7 +52,7 @@ const ContactForm = () => {
         <div className="text-right py-4">
           <button
             type="submit"
-            className="py-4 px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold text-lg rounded-xl hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300"
+            className="text-sm px-6 py-3 md:py-4 md:px-16 tracking-wide shadow-xl  bg-[#7843e9] text-white font-bold md:text-lg rounded-xl hover:-translate-y-1 hover:scale-100 hover:bg-indigo-500 duration-300"
           >
             Enviar
           </button>
