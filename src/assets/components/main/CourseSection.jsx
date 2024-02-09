@@ -1,4 +1,6 @@
 import imgUdemy from "../../images/imgUdemy.png";
+import imgUdemyReact from "../../images/ImgUdemyReact.png";
+
 
 const CourseSection = () => {
   return (
@@ -27,12 +29,12 @@ const CourseSection = () => {
         </div>
         <div>
           <a
-            href="https://drive.google.com/file/d/18iCnVvLlKAnThHPjQYBh5Dt0jIG-wEBp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RU5pEu278l_AkfbsBOa-q1-LftRvxYtx/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={imgUdemy}
+              src={imgUdemyReact}
               alt="imgUdemy"
               className="hover:-translate-x-1 hover:scale-90 duration-300 border-2 border-purple-600/75"
             />

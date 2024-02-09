@@ -45,7 +45,7 @@ const AboutSection = () => {
                   continuo y la búsqueda constante de la excelencia, mi viaje en
                   el desarrollo web es un camino emocionante hacia la innovación
                   y la creación de tecnología que impacta de manera positiva.
-                  ¡Acompáñame en este viaje de transformación digital!
+      
                 </p>
                 <div>
                   <a href="#contact">
